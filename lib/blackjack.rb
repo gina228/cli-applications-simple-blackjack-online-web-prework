@@ -8,7 +8,8 @@ def deal_card
 end
 
 def display_card_total
-  
+  def display_card_total(card_total)
+  puts "Your cards add up to #{card_total}"
 end
 
 def prompt_user
@@ -31,7 +32,7 @@ def initial_round
 end
 
 def hit?
-  # code hit? here
+  
 end
 
 def invalid_command
